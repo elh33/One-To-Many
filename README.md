@@ -59,6 +59,7 @@ List<Child> children = childDao.findAll();
 
 // Retrieve all parents
 List<Parent> parents = parentDao.findAll();
+```
 
 ## Setup Instructions
 
