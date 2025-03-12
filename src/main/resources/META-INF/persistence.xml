@@ -7,9 +7,9 @@
         <class>models.Parent</class>
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/entity5"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/entity3"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
-            <property name="jakarta.persistence.jdbc.password" value=""/>
+            <property name="jakarta.persistence.jdbc.password" value="0000"/>
 
             <property name="eclipselink.target-database" value="MySQL"/>
             <property name="eclipselink.ddl-generation" value="create-tables"/>
