@@ -1,0 +1,6 @@
+models\Parent.class
+dao\ChildDao.class
+daoImpl\ChildDaoImp.class
+dao\ParentDao.class
+models\Child.class
+daoImpl\ParentDaoImp.class
