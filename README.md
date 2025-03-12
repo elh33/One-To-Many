@@ -36,31 +36,6 @@ The database connection is configured in `persistence.xml`:
 - Username: root
 - Password: 0000
 
-## Usage
-
-To use the DAO implementations:
-
-```java
-// Create a Parent
-ParentDao parentDao = new ParentDaoImp();
-Parent parent = new Parent();
-parent.setName("Parent Name");
-parentDao.save(parent);
-
-// Create a Child and associate with Parent
-ChildDao childDao = new ChildDaoImp();
-Child child = new Child();
-child.setName("Child Name");
-child.setParent(parent);
-childDao.save(child);
-
-// Retrieve all children
-List<Child> children = childDao.findAll();
-
-// Retrieve all parents
-List<Parent> parents = parentDao.findAll();
-```
-
 ## Setup Instructions
 
 Create a MySQL database named entity3
